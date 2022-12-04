@@ -1,7 +1,12 @@
 @import "./utils/vars";
+@import "./utils/hidden";
+
 @import "./base/reset";
 @import "./base/common";
+
 @import "./components/container";
+@import "./components/modal";
+
 @import "./layouts/header";
 @import "./layouts/hero";
 @import "./layouts/advantage";
@@ -10,5 +15,4 @@
 @import "./layouts/klients";
 @import "./layouts/footer";
 @import "./layouts/portfolio";
-@import "./components/modal";
-@import "./utils/hidden";
+
