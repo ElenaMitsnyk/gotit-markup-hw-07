@@ -1,0 +1,104 @@
+
+
+.main-fourth {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: var(--color-background-team);
+    }
+    .main-team {
+    display: flex;
+    justify-content: center;
+    gap: 30px;  
+    }
+    .main-team-title {
+    font-size: 36px;
+    line-height: 1.1666;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-title);
+    margin-bottom: 50px;
+    }
+    .main-team-img {
+    display: block;
+    }
+    .main-team-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1875;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-title);
+    margin-bottom: 10px;
+    }
+    .main-team-text {
+    font-size: 16px;
+    line-height: 1.1875;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-text);
+    margin-bottom: 16px;
+    }
+    
+    .soc {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    }
+    
+    .soc-list {
+    width: 44px;
+    height: 44px;
+    }
+    
+    .soc-list-link {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .soc-list-link:hover,
+    .soc-list-link:focus {
+    background-color: var(--color-change);
+    }
+    .soc-list-link:hover .soc-list-link-icon,
+    .soc-list-link:focus .soc-list-link-icon {
+    fill: var(--color-white); 
+    }
+    
+    .soc-list-link-icon {
+    fill: var(--color-icons);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .card-wrapper-main {
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    background-color: var(--color-white);
+    border: 1px solid;
+    border-color: var(--color-border); 
+    border-top: none;  
+    }
+    .main-work-tema {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--color-title);
+    }
+    .main-work-text {
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: var(--color-text);
+    }
+    
+    .team-card {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    }
