@@ -1,16 +1,15 @@
-
-
-.main-fourth {
+.team {
     padding-top: 94px;
     padding-bottom: 94px;
     background-color: var(--color-background-team);
     }
-    .main-team {
+    .card-list {
     display: flex;
     justify-content: center;
     gap: 30px;  
     }
-    .main-team-title {
+    
+    .team__uptitle {
     font-size: 36px;
     line-height: 1.1666;
     text-align: center;
@@ -18,10 +17,10 @@
     color: var(--color-title);
     margin-bottom: 50px;
     }
-    .main-team-img {
+    .card-list__img {
     display: block;
     }
-    .main-team-list {
+    .card-list__title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.1875;
@@ -30,7 +29,8 @@
     color: var(--color-title);
     margin-bottom: 10px;
     }
-    .main-team-text {
+
+    .card-list__text {
     font-size: 16px;
     line-height: 1.1875;
     text-align: center;
@@ -45,12 +45,12 @@
     gap: 10px;
     }
     
-    .soc-list {
+    .soc__item {
     width: 44px;
     height: 44px;
     }
     
-    .soc-list-link {
+    .soc__link {
     width: 100%;
     height: 100%;
     background-color: var(--color-white);
@@ -65,16 +65,16 @@
     }
     }
     
-    .soc-list-link-icon {
+    .soc__icon {
     fill: var(--color-icons);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    .soc-list-link:hover &,
-    .soc-list-link:focus & {
+    .soc__link:hover &,
+    .soc__link:focus & {
     fill: var(--color-white); 
     }
     }
     
-    .card-wrapper-main {
+    .card-list__wrapper {
     padding-top: 20px;
     padding-right: 24px;
     padding-bottom: 20px;
@@ -84,20 +84,9 @@
     border-color: var(--color-border); 
     border-top: none;  
     }
-    .main-work-tema {
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color: var(--color-title);
-    }
-    .main-work-text {
-    font-size: 16px;
-    line-height: 1.875;
-    letter-spacing: 0.03em;
-    color: var(--color-text);
-    }
+
     
-    .team-card {
+    .card-list__item {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     }

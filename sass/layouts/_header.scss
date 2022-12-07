@@ -65,6 +65,10 @@
     }
     }
         
+    .menu__accent {
+    position: relative;
+    }
+
     .menu__link_accent {
     font-weight: 500;
     font-size: 14px;
@@ -72,6 +76,7 @@
     letter-spacing: 0.02em;
     color: var(--color-change);
     text-decoration: none;
+    margin-bottom: 20px;
     &::after {
         content: "";
         position: absolute;
@@ -83,10 +88,6 @@
         bottom: -1px;
         left: 0;
         }
-    }
-        
-    .menu-accent {
-    position: relative;
     }
 
     .contact {
@@ -105,7 +106,7 @@
     fill: var(--color-change);
     }
     }
-    
+
     .contact__link {
     font-weight: 500;
     font-size: 14px;
